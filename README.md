@@ -1,7 +1,7 @@
 # LeetCodePython
 
 those are some solved leetcode practices for interviews with python 
-contain explantions and test for each one 
+that contains explanations and test for each one. 
 
 
 
