@@ -1,20 +1,14 @@
-class Solution(object):
-    def twoSum(self, nums, target):
-        for idx, val in enumerate(nums):
-            #  enumerate take the index and the value of nums
-            if target - val in nums[idx + 1:]:
-                arr = [idx, nums[idx + 1:].index(target - val) + (idx + 1)]
-                # array contain the indexes of he values that make that target 
-                print(arr)
-                # print to shows the output 
-                return arr
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        previousMap = {} # val : index
 
-#some tests
-Object = Solution()
-n = [2,7,11,15]
-t = 9
-Object.twoSum(n, t)
+        for i, n in enumerate(nums):
+            # check if the diff equals target minus n
+            diff = target - n
 
-n1 = [2,8,5,15]
-t1 = 20
-Object.twoSum(n1, t1)
+            # if its in the HashMap the return a pairs of the indexes
+            if diff in previousMap:
+                return [previousMap[diff], i]
+
+            # if we don't find the solution we are going to update the HashMap
+            previousMap[n] = i
