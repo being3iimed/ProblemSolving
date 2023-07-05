@@ -1,7 +1,6 @@
-# LeetCodePython
+# LeetCodePythonJava
 
-those are some solved leetcode practices for interviews with python 
-that contains explanations and test for each one. 
+those are some solved leetcode practices for interviews with python & Java
 
 
 
