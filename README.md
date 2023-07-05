@@ -1,6 +1,6 @@
 # LeetCodePythonJava
 
-those are some solved leetcode practices for interviews with python & Java
+A Record of My Problem Solving Journey 
 
 
 
