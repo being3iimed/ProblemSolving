@@ -18,7 +18,7 @@ int main() {
         cout << "yes" << endl;
       }
       else {
-        cout << "no" << endl
+        cout << "no" << endl;
       }
     }
     else {
