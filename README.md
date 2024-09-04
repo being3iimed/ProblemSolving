@@ -1,4 +1,4 @@
-# LeetCodePythonJava
+# ProblemSolving
 
 A Record of My Problem Solving Journey 
 
