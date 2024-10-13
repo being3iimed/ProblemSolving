@@ -1,4 +1,4 @@
-class Solution {
+gitclass Solution {
     public int maxProfit(int[] prices) {
       int buy = 0, sell = 1, profit = 0, MaxProf = 0;
       while(sell < prices.length){
